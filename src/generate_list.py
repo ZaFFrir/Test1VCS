@@ -1,8 +1,8 @@
 import random
 def generate_list():
      alist = [x for x in range (random.randint(-10, 10))]
-     assert len(alist) != 0 ,"the list must empty"
-     assert sum(alist) > -100, "sum of list must < -100"
+     assert len(alist) != 0 ,"the list must not empty"
+     assert sum(alist) > -100, "sum of list must > -100"
      return alist
      
 """
